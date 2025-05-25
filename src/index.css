@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+#root{
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100; 
+  margin: 0;
+  padding: 0;
+  background-color: #f2f1ee;
+}
+
+@layer base {
+  .text-10xl {
+    font-size: 9rem;
+    line-height: 1;
+  }
+}
+
+@layer utilities{
+  .scrollbar-hide {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
