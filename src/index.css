@@ -1,14 +1,32 @@
 @import "tailwindcss";
 @tailwind utilities;
 
-#root{
-  box-sizing: border-box;
-  height: 100vh;
-  width: 100; 
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f2f1ee;
+  scroll-behavior: smooth;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed; 
+  scroll-behavior: auto;
 }
+
+/* body::-webkit-scrollbar{
+  display: none;
+} */
+
+:root{
+  box-sizing: border-box;
+  min-height: 100vh;
+  width: 100%;  
+  background-color: #eeece2;
+  font-family: 'Optima', sans-serif;
+  --primary: #CC5F3F;
+  --secondary: #592534;
+}
+
 
 @layer base {
   .text-10xl {
@@ -23,4 +41,34 @@
       display: none;
     }
   }
+
+  .bg-base {
+    background-color:#eeece2
+  }
 }
+
+@font-face {
+  font-family: Optima;
+  font-style: normal;
+  font-weight: 100;
+  src: url('./assets/fonts/Optima/OptimaLTStdRoman.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: Taiganja;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Taiganja/Taiganja.otf');
+}
+
+
+@font-face {
+  font-family: BerkShire;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/BerkShire/BerkshireSwash-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+
