@@ -13,9 +13,9 @@ html, body {
   scroll-behavior: auto;
 }
 
-/* body::-webkit-scrollbar{
+body::-webkit-scrollbar{
   display: none;
-} */
+}
 
 :root{
   box-sizing: border-box;
@@ -54,15 +54,6 @@ html, body {
   src: url('./assets/fonts/Optima/OptimaLTStdRoman.otf') format('opentype');
 }
 
-
-@font-face {
-  font-family: Taiganja;
-  font-style: normal;
-  font-weight: 400;
-  src: url('./assets/fonts/Taiganja/Taiganja.otf');
-}
-
-
 @font-face {
   font-family: BerkShire;
   font-style: normal;
@@ -71,4 +62,14 @@ html, body {
   font-display: swap;
 }
 
+
+.contact-text{
+  font-size: 12rem;
+  line-height: 1;
+  font-family: 'Optima', sans-serif;
+
+  @media screen and (max-width: 768px) {
+    font-size: 4rem;
+  }
+}
 

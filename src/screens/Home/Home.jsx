@@ -7,14 +7,12 @@ gsap.registerPlugin(ScrollTrigger);
 const Home = () => {
 
 useEffect(() => {
-    // Create a timeline for the scaling animation
 
     gsap.set("#mandala-text", {
-      scale: 2.5,
+      scale: 1.2,
       transformOrigin: "center center",
     });
 
-    // Set initial state for background image
     gsap.set('.mandala-bg',{
       opacity: 0,
       scale: 1,
@@ -47,7 +45,6 @@ useEffect(() => {
       scale: 1,
       opacity: 0.8, // Adjust opacity as needed
       duration: 3,
-      rotate: 5,
       ease: "power2.in"
     }, 0)
     .to('.logo', {
@@ -99,15 +96,20 @@ useEffect(() => {
           <img 
             src="/src/assets/images/home/home.svg" 
             alt="Background" 
-            className="mandala-bg absolute w-full h-full object-cover object-bottom z-0" 
+            className="mandala-bg absolute left-[60%] md:left-[50%] w-full h-full object-fill z-0" 
           />
-          <span className='relative z-10 flex flex-col items-center justify-center gap-4' id='home-text'>    
-            <h2 className='text-5xl md:text-8xl text-center text-[var(--secondary)] opacity-0 font-[Optima]'>
+          <img 
+            src="/src/assets/images/home/home.svg" 
+            alt="Background" 
+            className="mandala-bg absolute right-[60%] md:right-[50%] w-full h-full object-fill z-0" 
+          />
+          <span className='relative z-10 flex flex-col items-center justify-center gap-10' id='home-text'>    
+            <h2 className='text-4xl md:text-8xl text-center text-[var(--primary)] opacity-0 font-[Optima]'>
               Fill Your Walls With
             </h2>
             <h1
               id="mandala-text"
-              className="md:text-[8vw] text-center text-[var(--primary)] tracking-widest font-[Berkshire] font-[900]"
+              className="text-6xl md:text-[8vw] text-center text-[#C7B981] tracking-widest font-[Berkshire] font-[900]"
             >
               Mandala
             </h1>
@@ -115,7 +117,7 @@ useEffect(() => {
           
         </main>
       </div>
-      <section className="h-[30vh] bg-base">
+      <section className="h-[20vh] md:h-[30vh] bg-base">
         {/* Dummy scroll area */}
       </section>
     </>
