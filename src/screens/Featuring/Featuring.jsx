@@ -56,12 +56,12 @@ const Featuring = () => {
       imgItem.addEventListener('mouseenter', () => {
         gsap.to(imgItem.querySelector('img'), {
           scale: 1.1,
-          duration: 0.3,
+          duration: 0.15,
           ease: "power2.out",
         });
         gsap.to(imgItem.querySelector(`#overlay-${index + 1}`), {
           opacity: 0,
-          duration: 0.3,
+          duration: 0.15,
           ease: "power2.out",
         });
       });
@@ -69,12 +69,12 @@ const Featuring = () => {
       imgItem.addEventListener('mouseleave', () => {
         gsap.to(imgItem.querySelector('img'), {
           scale: 1,
-          duration: 0.3,
+          duration: 0.15,
           ease: "power2.out",
         });
         gsap.to(imgItem.querySelector(`#overlay-${index + 1}`), {
           opacity: 1,
-          duration: 0.3,
+          duration: 0.15,
           ease: "power2.out",
         });
       });
