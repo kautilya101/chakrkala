@@ -94,12 +94,12 @@ useEffect(() => {
         <Header classNames={'logo hidden'} />    
         <main className="relative flex-1 flex items-center justify-center text-wrap text-center overflow-hidden" id='home'>
           <img 
-            src="/src/assets/images/home/home.svg" 
+            src="/assets/images/home/home.svg" 
             alt="Background" 
             className="mandala-bg absolute left-[60%] md:left-[50%] w-full h-full object-fill z-0" 
           />
           <img 
-            src="/src/assets/images/home/home.svg" 
+            src="/assets/images/home/home.svg" 
             alt="Background" 
             className="mandala-bg absolute right-[60%] md:right-[50%] w-full h-full object-fill z-0" 
           />

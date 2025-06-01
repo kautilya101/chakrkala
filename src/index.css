@@ -51,14 +51,14 @@ body::-webkit-scrollbar{
   font-family: Optima;
   font-style: normal;
   font-weight: 100;
-  src: url('./assets/fonts/Optima/OptimaLTStdRoman.otf') format('opentype');
+  src: url('/fonts/OptimaLTStdRoman.otf') format('opentype');
 }
 
 @font-face {
   font-family: BerkShire;
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/BerkShire/BerkshireSwash-Regular.ttf') format('truetype');
+  src: url('/fonts/BerkshireSwash-Regular.ttf') format('truetype');
   font-display: swap;
 }
 

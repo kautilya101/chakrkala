@@ -1,206 +1,239 @@
+import {
+  sacredGanesha,
+  divineFeminine,
+  grandMandala,
+  powerCircle,
+  shaktiAura,
+  mysticFlow,
+  circleCharm,
+  tinyLoveLoop,
+  circleWhispers,
+  lunaLoop,
+  tinyWhirl,
+  pocketPeace,
+  divineMelody,
+  eternalWhirl,
+  balancedBloom,
+  strategicGrace,
+  rootsAndRadiance,
+  pastelPeace,
+  whispersInACircle,
+  boxWithin,
+  monogramMandala,
+  linesOfSerenity,
+  mandalaBloom,
+  balancedHalf,
+  bookmarkOfBalance,
+  mandalaThreads,
+  chaoticPeace,
+  readAndRelax,
+  flowingLines,
+  circleAndSpine,
+} from '../assets/images/gallery';
+
 export const galleryItems = [
   {
     name: 'Sacred Ganesha',
-    image: '/src/assets/images/gallery/sacred_ganesha.jpg',
+    image: sacredGanesha,
     price: 1200,
     type: 'Advanced',
-    size: 'A3'
+    size: 'A3',
   },
   {
     name: 'Divine Feminine',
-    image: '/src/assets/images/gallery/divine_feminine.PNG',
+    image: divineFeminine,
     price: 1200,
     type: 'Advanced',
-    size: 'A3'
+    size: 'A3',
   },
   {
     name: 'Grand Mandala',
-    image: '/src/assets/images/gallery/grand_mandala.jpg',
+    image: grandMandala,
     price: 1200,
     type: 'Advanced',
-    size: 'A3'
+    size: 'A3',
   },
   {
     name: 'Power Circle',
-    image: '/src/assets/images/gallery/power_cricle.JPG',
+    image: powerCircle,
     price: 1200,
     type: 'Advanced',
-    size: 'A3'
+    size: 'A3',
   },
   {
     name: 'Shakti Aura',
-    image: '/src/assets/images/gallery/shakti_aura.PNG',
+    image: shaktiAura,
     price: 1200,
     type: 'Advanced',
-    size: 'A3'
+    size: 'A3',
   },
   {
     name: 'Mystic Flow',
-    image: '/src/assets/images/gallery/triangle_flow.JPG',
+    image: mysticFlow,
     price: 1200,
     type: 'Advanced',
-    size: 'A3'
+    size: 'A3',
   },
   {
     name: 'Circle Charm',
-    image: '/src/assets/images/gallery/circle_charm.jpg',
+    image: circleCharm,
     price: 100,
     type: 'Miniature',
-    size: 'Small'
+    size: 'Small',
   },
   {
     name: 'Tiny Love Loop',
-    image: '/src/assets/images/gallery/tiny_love_loop.jpg',
+    image: tinyLoveLoop,
     price: 100,
     type: 'Miniature',
-    size: 'Small'
+    size: 'Small',
   },
   {
     name: 'Circle Whispers',
-    image: '/src/assets/images/gallery/circle_whispers.JPG',
+    image: circleWhispers,
     price: 100,
     type: 'Miniature',
-    size: 'Small'
+    size: 'Small',
   },
   {
     name: 'Luna Loop',
-    image: '/src/assets/images/gallery/luna_loop.jpg',
+    image: lunaLoop,
     price: 100,
     type: 'Miniature',
-    size: 'Small'
+    size: 'Small',
   },
   {
     name: 'Tiny Whirl',
-    image: '/src/assets/images/gallery/tiny_whirl.jpg',
+    image: tinyWhirl,
     price: 100,
     type: 'Miniature',
-    size: 'Small'
+    size: 'Small',
   },
   {
     name: 'Pocket Peace',
-    image: '/src/assets/images/gallery/pocket_peace.jpg',
+    image: pocketPeace,
     price: 100,
     type: 'Miniature',
-    size: 'Small'
+    size: 'Small',
   },
   {
     name: 'Divine Melody',
-    image: '/src/assets/images/gallery/divine_melody.PNG',
+    image: divineMelody,
     price: 600,
     type: 'Moderate',
-    size: 'A3/A4'
+    size: 'A3/A4',
   },
   {
     name: 'Eternal Whirl',
-    image: '/src/assets/images/gallery/eternal_whirl.jpg',
+    image: eternalWhirl,
     price: 800,
     type: 'Moderate',
-    size: 'A3/A4'
+    size: 'A3/A4',
   },
   {
     name: 'Balanced Bloom',
-    image: '/src/assets/images/gallery/balanced_bloom.jpg',
+    image: balancedBloom,
     price: 800,
     type: 'Moderate',
-    size: 'A3/A4'
+    size: 'A3/A4',
   },
   {
     name: 'Strategic Grace',
-    image: '/src/assets/images/gallery/startegic_grace.JPG',
+    image: strategicGrace,
     price: 800,
     type: 'Moderate',
-    size: 'A3/A4'
+    size: 'A3/A4',
   },
   {
     name: 'Roots & Radiance',
-    image: '/src/assets/images/gallery/roots_and_radiance.jpg',
+    image: rootsAndRadiance,
     price: 600,
     type: 'Moderate',
-    size: 'A3/A4'
+    size: 'A3/A4',
   },
   {
     name: 'Pastel Peace',
-    image: '/src/assets/images/gallery/pastel_peace.JPG',
+    image: pastelPeace,
     price: 600,
     type: 'Moderate',
-    size: 'A3/A4'
+    size: 'A3/A4',
   },
   {
     name: 'Whispers In A Circle',
-    image: '/src/assets/images/gallery/whispers_in_a_circle.jpg',
+    image: whispersInACircle,
     price: 250,
     type: 'Simple',
-    size: 'A4'
+    size: 'A4',
   },
   {
     name: 'Box Within',
-    image: '/src/assets/images/gallery/box_within.jpg',
+    image: boxWithin,
     price: 100,
     type: 'Simple',
-    size: 'A4'
+    size: 'A4',
   },
   {
     name: 'Monogram Mandala',
-    image: '/src/assets/images/gallery/monogram.PNG',
+    image: monogramMandala,
     price: 100,
     type: 'Simple',
-    size: 'A4'
+    size: 'A4',
   },
   {
     name: 'Lines of Serenity',
-    image: '/src/assets/images/gallery/lines_of_serenity.jpg',
+    image: linesOfSerenity,
     price: 100,
     type: 'Simple',
-    size: 'A4'
+    size: 'A4',
   },
   {
     name: 'Mandala Bloom',
-    image: '/src/assets/images/gallery/bloom_mandala.PNG',
+    image: mandalaBloom,
     price: 250,
     type: 'Simple',
-    size: 'A4'
+    size: 'A4',
   },
   {
     name: 'Balanced Half',
-    image: '/src/assets/images/gallery/balanced_half.jpg',
+    image: balancedHalf,
     price: 100,
     type: 'Simple',
-    size: 'A4'
+    size: 'A4',
   },
   {
     name: 'Bookmark of Balance',
-    image: '/src/assets/images/gallery/bookmark_of_balance.jpg',
+    image: bookmarkOfBalance,
     price: 100,
-    type: 'Bookmarks'
+    type: 'Bookmarks',
   },
   {
     name: 'Mandala Threads',
-    image: '/src/assets/images/gallery/mandala_threads.jpg',
+    image: mandalaThreads,
     price: 100,
-    type: 'Bookmarks'
+    type: 'Bookmarks',
   },
   {
     name: 'Chaotic Peace',
-    image: '/src/assets/images/gallery/chaotic_peace.jpg',
+    image: chaoticPeace,
     price: 100,
-    type: 'Bookmarks'
+    type: 'Bookmarks',
   },
   {
     name: 'Read & Relax',
-    image: '/src/assets/images/gallery/read_&_relax.JPG',
+    image: readAndRelax,
     price: 100,
-    type: 'Bookmarks'
+    type: 'Bookmarks',
   },
   {
     name: 'Flowing Lines',
-    image: '/src/assets/images/gallery/flowing_lines.jpg',
+    image: flowingLines,
     price: 100,
-    type: 'Bookmarks'
+    type: 'Bookmarks',
   },
   {
     name: 'Circle & Spine',
-    image: '/src/assets/images/gallery/circle_and_spine.jpg',
+    image: circleAndSpine,
     price: 100,
-    type: 'Bookmarks'
+    type: 'Bookmarks',
   },
-]
+];
