@@ -168,21 +168,21 @@ export const galleryItems = [
   {
     name: 'Box Within',
     image: boxWithin,
-    price: 100,
+    price: 300,
     type: 'Simple',
     size: 'A4',
   },
   {
     name: 'Monogram Mandala',
     image: monogramMandala,
-    price: 100,
+    price: 300,
     type: 'Simple',
     size: 'A4',
   },
   {
     name: 'Lines of Serenity',
     image: linesOfSerenity,
-    price: 100,
+    price: 300,
     type: 'Simple',
     size: 'A4',
   },
@@ -196,7 +196,7 @@ export const galleryItems = [
   {
     name: 'Balanced Half',
     image: balancedHalf,
-    price: 100,
+    price: 300,
     type: 'Simple',
     size: 'A4',
   },
